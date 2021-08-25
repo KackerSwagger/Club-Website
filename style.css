@@ -1,0 +1,102 @@
+* {
+    font-family: Helvetica,sans-serif; 
+    background-color: beige;  
+    opacity: 0.9;
+    text-align: center;
+
+    /*reset of browser's default values*/
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+
+/* header section */
+
+header {
+    height:25rem;
+    background-image: url("resources/fencingpractice.webp");
+    font-size: 1.5rem;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 5;
+}
+
+main {
+    position: relative;
+    z-index: -1;
+}
+header h1 {
+    position: fixed;
+    width:100%;
+    text-align: center;
+    z-index: 5;
+}
+
+nav {
+    position: sticky;
+    top: 3.5rem;
+    width: 100%;
+    height: 4.7rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+    opacity: 1;
+}
+nav, a {
+    color: blanchedalmond;
+    background-color: black;
+}
+button{
+    border-radius: 75%;
+    padding:1%;
+    font-style: "Times New Roman", sans-serif;
+}
+
+/* mission */
+
+.container{
+    display: flex;
+    padding:2%;
+    margin-top: 10%;
+}
+
+.intro{
+    background-color: coral;
+    padding:5%;
+}
+.intro, h4{
+    margin-top:5%;
+    background-color: coral;
+}
+/* fencing types */
+
+.container-2{
+    display: flex;
+    padding:2%;
+    margin: 20%, 10% ;
+    margin-bottom:10%;
+}
+
+.types{
+    background-color: rgb(240, 133, 169);
+    padding:5%;
+}
+.types, ul, li{
+    margin-top:5%;
+    background-color: rgb(240, 133, 169);
+}
+
+/* fencing times */
+
+.time{
+    padding:2%;
+
+}
